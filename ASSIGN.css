@@ -1,0 +1,170 @@
+
+       /* Css for the navbar starts here */
+       /* class  */
+        .icon-bar {
+            width: 102%;
+            /* Full-width */
+            background-color: darkblue;
+        
+            overflow: auto;
+            /* Overflow due to float */
+
+
+        }
+
+        .icon-bar a {
+            float: right;
+            /* Float links side by side */
+            text-align: center;
+
+            width: 5%;
+            /* Equal width (5 icons with 20% width each = 100%) */
+            padding-right: 10px;
+            /* Some top and bottom padding */
+            transition: all 0.3s ease;
+            /* Add transition for hover effects */
+            color: white;
+            
+            font-size: 20px;
+    
+
+
+        }
+/* giving style to the lists inside unorederd list for creating menu */
+        ul li {
+            float: left;
+            padding-right: 20px;
+            color: wheat;
+            font-size: 25px;
+            list-style-type: none;
+            margin-left:  0px;
+
+        }
+/* add a hover color to menu  */
+        ul li:hover {
+            background-color:red
+        }
+
+        ul ul {
+            display: none;
+            padding: 0%;
+             }
+/* displaying dropdowns */
+        ul li:hover>ul {
+            display: block;
+            }
+        ul  ul li{
+            font-size: 15px;
+            }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color:blue;
+  width: 130px ;
+ 
+ }
+/* Add a hover color to icons */
+        .icon-bar a:hover {
+            background-color: rgb(59, 8, 177);
+             }
+/* Css for the Main div goes here */
+        .container {
+            text-align: center;
+
+        }
+/* For the all div's inside the main div */
+        .container>div {
+    
+            width: 350px;
+            border: 1px solid whitesmoke;
+            height: 300px;
+            border-radius: 20px;
+
+            border-width: 6px;
+       }
+
+/* For centered content */
+        .center {
+            display: inline-block;
+            margin-top: 5%;
+            margin-left: 0%;
+            padding: 0 auto;
+            background-color:rgb(250, 250, 247);
+         }
+
+         .center a {
+
+            font-size: 30px;
+            background-color: darkslateblue;
+            color: rgb(233, 224, 224);
+        }
+
+/* FOR rightside conetent */
+        .right {
+            float: right;
+            padding-right: 5%;
+            padding-left: 5%;
+            text-align: center;
+            border: 1px solid;
+            margin-top: 5%;
+            background-color: rgb(184, 184, 196);
+
+
+        }
+        /* For the left side content */
+
+        .left {
+            float: left;
+            padding-left: 0%;
+            margin-top: 0px;
+            background-color: rgb(248, 246, 246);
+            margin-right: 0%;
+        }
+
+/* Uper content goes here */
+        .w3 {
+            height: 50px;
+            width: 100%;
+            border: none;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: 1%;
+            margin-bottom: 0%;
+
+
+        }
+
+        #span1 {
+            font-size: 40px;
+
+            font-weight: 100;
+            font-style: oblique;
+            color: darkgreen;
+        }
+
+
+        #span2 {
+            font-size: 20px;
+            float: right;
+
+            padding: 0 auto;
+
+        }
+/* for login button */
+        .btn {
+            float: right;
+            width: 100px;
+
+            background-color: darkgreen;
+            margin-left: 20px;
+            margin-right: 20px;
+            padding-bottom: 0;
+            height: 30px;
+            font-size: 20px;
+            margin-bottom: 0%;
+            padding-top: 0;
+            color: bisque;
+
+        }
+
+       
